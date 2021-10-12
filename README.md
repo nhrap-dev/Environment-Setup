@@ -3,7 +3,7 @@ Instructions on how to set up NHRAP HAZUS Open Source tool Environment
 
 ## Requirements
 
-Each NHRAP Hazus open source tool has their own requirements however each tool will require Python and assume Hazus and ArcGIS Desktop are installed. ArcGIS Desktop includes Python 2.7 which is used to install conda. Some older tool versions require Anaconda be installed. Anaconda can be installed alongside Miniforge however if you do not have Anaconda installed then follow the Steps to Install Conda below.
+Each NHRAP Hazus open source tool has their own requirements however each tool will require Python. ArcGIS Desktop includes Python 2.7 which is used to install conda. Some older tool versions require Anaconda be installed. Anaconda can be installed alongside Miniforge however if you do not have Anaconda installed then follow the Steps to Install Conda below.
 
 ## Documentation
 

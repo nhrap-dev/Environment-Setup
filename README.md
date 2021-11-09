@@ -53,7 +53,7 @@ Older versions of the NHRAP HAZUS open source tools use Anaconda to install and 
       3. Enter the following without quotes 'conda env remove --name hazus_env' to remove the environment. This may take a few minutes.
       4. Enter the following without qoutes 'conda info --envs' to see your environments again and hazus_env should not be listed.
       5. Repeat steps 2 - 3 until all 'hazus_...' virtual environments are removed.
-      ![Remove ENV Terminal](Images/CommandLineRemoveEnv.jpg "Remove ENV Terminal")
+      ![Remove ENV Terminal](images/CommandLineRemoveEnv.jpg "Remove ENV Terminal")
 
 2. Follow the [uninstall steps](https://docs.anaconda.com/anaconda/install/uninstall/) from Anaconda 
     * It is recommended to perform the 'Option B. Full uninstall using Anaconda-Clean and simple remove.'

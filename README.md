@@ -32,8 +32,8 @@ It is not recommended to use Anaconda as its not supported in the latest version
     - [x] ~~Register Anaconda as my default Python~~
     - [x] ~~Install Anaconda for local user, rather than all users~~
 
-## Steps to Uninstall a NHRAP-HAZUS Open Source tool
-1. Delete the tool's folder
+## Steps to Uninstall an NHRAP-HAZUS Open Source tool
+1. Delete the tool's unzipped folder and contents
 
 ## Steps to uninstall Anaconda
 Older versions of the NHRAP HAZUS open source tools use Anaconda to install and manager the Python environment(s). It is recommended to uninstall the older versions and Anaconda and use the latest tool versions with Miniforge.

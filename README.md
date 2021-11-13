@@ -58,6 +58,12 @@ Older versions of the NHRAP HAZUS open source tools use Anaconda to install and 
 2. Follow the [uninstall steps](https://docs.anaconda.com/anaconda/install/uninstall/) from Anaconda 
     * It is recommended to perform the 'Option B. Full uninstall using Anaconda-Clean and simple remove.'
 
+## Environment and Tool Troubleshooting
+
+**Tool is not opening with Python.**
+To ensure .py files run when double-clicked, right-click the .py file and go to Properties. Under the "General" tab next to "Opens With", make sure "python.exe" is selected. If not, click "Change" and select "python.exe" from your Python installation directory.
+
+
 ## Contact
 
 Issues can be reported through this [repository](https://github.com/nhrap-hazus/Environment-Setup) on Github.

@@ -1,13 +1,13 @@
 # Environment-Setup
-Instructions on how to set up a Python environment to run NHRAP-HAZUS Open Source tools.
+Instructions on how to set up an environment for NHRAP-HAZUS Open Source tools.
 
 ## Requirements
-
-Each NHRAP Hazus open source tool has their own requirements however each tool will require Python. ArcGIS Desktop includes Python 2.7 which is used to install conda. Some older tool versions require Anaconda be installed. Anaconda can be installed alongside Miniforge however if you do not have Anaconda installed then follow the Steps to Install Conda below.
+Each NHRAP Hazus open source tool has their own requirements, and each tool requires Python. ArcGIS Desktop includes Python 2.7 and can be used to install conda. Follow the steps below to install conda and Miniforge.
 
 ## Documentation
-* [Conda](https://docs.conda.io/en/latest/) is a free software package manager that automatically manages all Python packages required to run Hazus open source tools.
+* [Conda](https://docs.conda.io/en/latest/) is a free software package manager that automatically manages all Python packages required to run Hazus open source tools. 
 * [Miniforge](https://github.com/conda-forge/miniforge) is a community driven minimalistic conda installer.
+___
 
 ## Steps to install conda using Miniforge
 1. Download this repository as a zipfile
@@ -17,26 +17,20 @@ Each NHRAP Hazus open source tool has their own requirements however each tool w
 3. Download and run any of the NHRAP-HAZUS Open Source tools.
     * Each tool has it's own environment.yaml file that conda will use to create a virtual environment with the required Python libraries.
 
+## Steps to Uninstall an NHRAP-HAZUS Open Source tool
+1. Delete the tool's unzipped folder and contents.
+
 ## Steps to uninstall conda 
-1. FIXME
+1. Coming Soon...
 
 ## Steps to uninstall Miniforge
-1. FIXME
+1. Coming Soon...
 
-## Steps to install Anaconda
-It is not recommended to use Anaconda as its not supported in the latest versions of the NHRAP-HAZUS Open Source Tools. This is kept for posterity.
-1. ~~Go to https://www.anaconda.com/distribution/~~
-2. ~~Download Anaconda for Python 3~~
-3. ~~Complete the installation. During installation, make sure the following options are checked:~~
-    - [x] ~~Add Anaconda to my PATH environment variable~~
-    - [x] ~~Register Anaconda as my default Python~~
-    - [x] ~~Install Anaconda for local user, rather than all users~~
-
-## Steps to Uninstall an NHRAP-HAZUS Open Source tool
-1. Delete the tool's unzipped folder and contents
-
+___
+# For older Hazus NHRAP tool installations
+This section is kept for posterity.
 ## Steps to uninstall Anaconda
-Older versions of the NHRAP HAZUS open source tools use Anaconda to install and manager the Python environment(s). It is recommended to uninstall the older versions and Anaconda and use the latest tool versions with Miniforge.
+Older versions of the NHRAP HAZUS open source tools used Anaconda to install and manage the Python environment(s). It is recommended to uninstall the older tool versions and Anaconda and use the latest tool versions that utilize Conda and Miniforge. Please be mindful when uninstalling Anaconda that other programs may rely on it.
 
 1. Using Anaconda, delete any virtual environments
     * This can be done via the Anaconda program interface or via [terminal window or Anaconda Prompt](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#removing-an-environment).
@@ -58,14 +52,22 @@ Older versions of the NHRAP HAZUS open source tools use Anaconda to install and 
 2. Follow the [uninstall steps](https://docs.anaconda.com/anaconda/install/uninstall/) from Anaconda 
     * It is recommended to perform the 'Option B. Full uninstall using Anaconda-Clean and simple remove.'
 
+## Steps to install Anaconda
+It is not recommended to use Anaconda because it is not supported in the latest versions of the NHRAP-HAZUS Open Source Tools.
+1. ~~Go to https://www.anaconda.com/distribution/~~
+2. ~~Download Anaconda for Python 3~~
+3. ~~Complete the installation. During installation, make sure the following options are checked:~~
+    - [x] ~~Add Anaconda to my PATH environment variable~~
+    - [x] ~~Register Anaconda as my default Python~~
+    - [x] ~~Install Anaconda for local user, rather than all users~~
+___
 ## Environment and Tool Troubleshooting
 
 **Tool is not opening with Python.**
 To ensure .py files run when double-clicked, right-click the .py file and go to Properties. Under the "General" tab next to "Opens With", make sure "python.exe" is selected. If not, click "Change" and select "python.exe" from your Python installation directory.
 
-
 ## Contact
 
-Issues can be reported through this [repository](https://github.com/nhrap-hazus/Environment-Setup) on Github.
+Issues can be reported through this [repository](https://github.com/nhrap-hazus/Environment-Setup) on GitHub.
 
-For questions contact fema-hazus-support@fema.dhs.gov
+For questions: contact fema-hazus-support@fema.dhs.gov
